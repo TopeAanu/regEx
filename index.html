@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <title>Validation - reg expression</title>
+</head>
+<body>
+  <div class="container">
+    <p class="lead">RegExp </p>
+    <form>
+      <div class="input-div">
+        <input type="text" id="name" placeholder="Name">
+        <div class="invalid-feedback">
+          Name must begin with a capital letter
+        </div>
+      </div>
+      <div class="input-div">
+        <input type="text" id="username" placeholder="Username">
+        <div class="invalid-feedback1">
+          Username must begin with lowercase
+        </div>
+      </div>
+      <div class="input-div">
+        <input type="text" id="email" placeholder="Email">
+        <div class="invalid-feedback2">
+          Use a valid email format
+        </div>
+      </div>
+      <div class="input-div">
+        <input type="text" id="phone" placeholder="Phone Number">
+        <div class="invalid-feedback3">
+          Enter a valid phone 
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
